@@ -10,7 +10,7 @@ block content
         image(src='/hero-image-2.png', alt='Whispr, Just Connect for Whanganui', width='100%')
   .pb-2.mt-2.mb-4.border-bottom
     h3 Contact Form
-    p Got questions or want to join us? Reach out! We're here to help you connect with the best internet experience in Whanganui. Let's talk!
+    p.lead Got questions or want to join us? Reach out! We're here to help you connect with the best internet experience in Whanganui. Let's talk!
 
   form(method='POST')
     input(type='hidden', name='_csrf', value=_csrf)
@@ -34,3 +34,4 @@ block content
         button.btn.btn-primary(type='submit')
           i.far.fa-envelope.fa-sm.iconpadding
           | Send
+  hr
